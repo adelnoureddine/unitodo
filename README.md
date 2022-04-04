@@ -68,4 +68,4 @@ The separation operator and the extensions are optional. However, extensions and
 # Implementations
 UniTodo specifications are released under a (link: https://creativecommons.org/licenses/by-sa/4.0/ text: creative commons license). Developers can implement the specifications under any license, including closed-source ones. However, we encourage developers to implement the specifications under a free license.
 
-- [UniTodo C++ Implementation (unitodocpp)](https://github.com/adelnoureddine/unitodo/tree/master/unitodocpp)
+- [UniTodo C++ Implementation (unitodocpp)](https://gitlab.com/adelnoureddine/unitodo/-/tree/master/unitodocpp)
