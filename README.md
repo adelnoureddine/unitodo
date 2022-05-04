@@ -1,10 +1,12 @@
 # UniTodo
-UniTodo is a text-based todo specifications that supports multi-languages, extensions, and can be implemented using only a text editor.
+
+UniTodo is a text-based todo specification that supports multi-languages, extensions, and can be implemented using only a text editor.
 UniTodo is an acronym for Universal Todo which emphasises on its simplicity, extensibility and multi-language support.
 UniTodo specifications are released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 Current version of the specifications: 0.1 (December 2015).
 
 ## Features
+
 UniTodo specifications are designed with simplicity and compatibility in mind.
 
 - Text-based storage for compatibility (.txt files, or any other text-based format)
@@ -19,7 +21,8 @@ UniTodo specifications are designed with simplicity and compatibility in mind.
 | `+` for new/uncompleted tasks, or `-` for completed tasks | Any text or characters except `---` | `---` | `-@` extension 1 `-@` extension 2 |
 | Mandatory | Mandatory | Optional | Optional (but mandatory if `---` is used. `-@` is mandatory for each extension |
 
-# Specifications
+# Specification
+
 ## Format
 The format of a task uses, in its basic form, two components: an operator and the todo message.
 
@@ -51,6 +54,7 @@ Shopping list
 ```
 
 ## Extensions
+
 UniTodo specifications are built with extensibility in mind. The `---` operator is used to separate the main task message from the extension text.
 `---` is also supported by most languages, not widely used and can be typed directly (without using Shift or Alt keys) on most keyboard layouts.
 
@@ -66,6 +70,7 @@ The separation operator and the extensions are optional. However, extensions and
 ```
 
 # Implementations
-UniTodo specifications are released under a (link: https://creativecommons.org/licenses/by-sa/4.0/ text: creative commons license). Developers can implement the specifications under any license, including closed-source ones. However, we encourage developers to implement the specifications under a free license.
+UniTodo specification are released under a (link: https://creativecommons.org/licenses/by-sa/4.0/ text: creative commons license). Developers can implement the specifications under any license, including closed-source ones. However, we encourage developers to implement the specifications under a free license.
 
+- [UniTodo Ada Implementation (unitodoada)](https://gitlab.com/adelnoureddine/unitodo/-/tree/master/unitodoada)
 - [UniTodo C++ Implementation (unitodocpp)](https://gitlab.com/adelnoureddine/unitodo/-/tree/master/unitodocpp)
