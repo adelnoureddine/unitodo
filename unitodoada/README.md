@@ -1,4 +1,4 @@
-# unitodocpp
+# Unitodoada
 `unitodoada`is a simple Ada implementation of the UniTodo specification.
 
 `unitodoada` currently supports reading and adding a new task in a default unitodo.txt file which is read/written in the current directory.
